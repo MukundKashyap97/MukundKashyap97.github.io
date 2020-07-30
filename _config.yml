@@ -1,0 +1,61 @@
+layout: stacked
+style: light
+
+plugins:
+  - jekyll-octicons
+  - jekyll-github-metadata
+  - jemoji
+
+permalink: /:year/:month/:day/:title/
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts"
+    values:
+      layout: "post"
+
+projects:
+  sort_by: pushed
+  # sort_by options:
+  #   - pushed
+  #   - stars
+  limit: 5
+  exclude:
+    archived: false
+    forks: true
+    projects: MukundKashyap97.github.io, MukundKashyap97
+    # - repo-name
+
+social_media:
+  # behance: your_username
+  # dribbble: your_username
+  # facebook: your_username
+  # hackerrank: your_username
+  # instagram: your_username
+  # keybase: your_username
+  linkedin: vmkyedunuthala
+  # mastodon: your_username
+  medium: mukundkashyap
+  # stackoverflow: your_user_id
+  # telegram: your_username
+  # twitter: your_username
+  # unsplash: your_username
+  # vk: your_username
+  # website: http://your_website_url
+  xing: VenkataMukundKashyap_Yedunuthala
+  # youtube: your_username
+
+topics:
+  - name: Resume
+    web_url: https://github.com/MukundKashyap97/MukundKashyap97/raw/master/CV-Europass-20200619-Yedunuthala-EN.pdf
+    image_url: https://img.icons8.com/ios/100/000000/open-resume.png
+
+  - name: About me
+    web_url: https://mukundkashyap97.github.io/about-me
+    image_url: https://img.icons8.com/ios-filled/100/000000/guest-male--v1.png
+
+  - name: GitLab
+    web_url: https://gitlab.com/MukundKashyap97
+    image_url: https://simpleicons.org/icons/gitlab.svg
